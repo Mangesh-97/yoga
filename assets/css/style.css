@@ -1,0 +1,462 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 52px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    padding: 20px 23px;
+    display: inline-block;
+    font-size: 25px;
+    color: #464159;
+}
+
+.navbar ul li a:hover {
+    transform: scale(1.1);
+}
+
+.search-icon {
+    color: #464159;
+}
+
+.main {
+    background-image: url('../img/9kbmvv2\ -\ Imgur.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100vh;
+    height: calc(100vh - 20px);
+}
+
+
+
+.main-content {
+    padding: 37px 0;
+    background: rgba(199, 240, 219, 0.2);
+    height: 100vh;
+    width: 100%;
+}
+
+.pri-heading {
+    font-size: 90px;
+    color: #464159;
+    font-weight: bolder;
+    margin-bottom: 52px;
+}
+
+.pri-para {
+    font-size: 25px;
+    color: #464159;
+    margin-bottom: 92px;
+
+}
+
+.btn-reg {
+    background-color: #464159;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 22px 56px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.btn-reg:hover,
+.btn-reg:active,
+.btn-reg:focus {
+    background-color: #fff;
+    color: #464159;
+    transform: translateY(-10px);
+}
+
+/* ///////////stats section////////////// */
+
+.stats {
+    background-image: url('../img/o6lDsto\ -\ Imgur.jpg');
+    height: calc(100vh + 100px);
+    background-repeat: no-repeat;
+    background-size: 100% calc(100vh + 100px);
+    background-position: center;
+}
+
+
+.stats-content {
+    padding-top: 180px;
+    background: rgba(66, 61, 83, 0.7);
+    height: calc(100vh + 100px);
+    ;
+}
+
+.sec-heading {
+    font-size: 75px;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 52px;
+    text-transform: uppercase;
+}
+
+.sec-para {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 228px;
+}
+
+.sec-count {
+    font-size: 67px;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 28px;
+}
+
+.sec-text {
+    font-size: 27px;
+    color: #fff;
+}
+
+/* ////////////about//////////////// */
+
+
+.about {
+    padding: 124px 0;
+    background-image: url('../img/1rrC5mu\ -\ Imgur.png');
+}
+
+.about-content {}
+
+
+
+.about .sec-heading {
+    color: #464159;
+    margin-bottom: 52px;
+}
+
+.about .sec-para {
+    color: #464159;
+    margin-bottom: 64px;
+}
+
+
+.card {
+    background-color: #fff;
+    width: 346px;
+    /* height: 460px; */
+}
+
+
+
+.card-body {
+    padding: 34px;
+    text-align: center;
+}
+
+.card-title {
+    color: #464159;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.card-text {
+    color: #464159;
+    font-size: 21px;
+}
+
+/* //////////// instructior //////////////// */
+
+.instructior {
+    position: relative;
+}
+
+.instructior-content {
+    padding: 90px 0 52px 0;
+}
+
+
+
+.instructior .sec-heading {
+    margin-top: 156px;
+    color: #464159;
+    margin-bottom: 70px;
+}
+
+.instructior .sec-para {
+    color: #464159;
+    margin-bottom: 90px;
+}
+
+.common-btn {
+    background-color: #464159;
+    padding: 20px 69px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.instructior .shape1 {
+    position: absolute;
+    bottom: -150px;
+    left: 500px;
+    z-index: -1;
+}
+
+.instructior .shape2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.instructior .shape3 {
+    position: absolute;
+    bottom: -180px;
+    left: 219px;
+    z-index: -1;
+}
+
+.instructior .shape4 {
+    position: absolute;
+    bottom: 0;
+    left: 305px;
+    z-index: -1;
+}
+
+/* //////////////////experience"//////////////////// */
+
+.experience {
+    padding: 130px 0 90px 0;
+    background-color: #f1f1f1;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.experience .sec-heading {
+    margin-top: 150px;
+    color: #464159;
+    margin-bottom: 56px;
+}
+
+.experience .sec-para {
+    color: #464159;
+    margin-bottom: 70px;
+}
+
+
+.experience .shape1 {
+    position: absolute;
+    bottom: -200px;
+    right: 0;
+}
+
+/* //////////////////pricing"//////////////////// */
+
+.pricing {
+    padding: 122px 0 99px 0;
+    background-color: #c7f0db;
+}
+
+
+.pricing .sec-heading {
+    margin-top: 0;
+    color: #464159;
+    margin-bottom: 56px;
+}
+
+.pricing .sec-para {
+    color: #464159;
+    margin-bottom: 78px;
+}
+
+.pricing.card-body {
+    padding: 30px 22px 26px 22px;
+}
+
+
+
+.pricing .common-btn {
+    padding: 15px 69px;
+}
+
+
+.pricing-head {
+    font-size: 37px;
+    color: #464159;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.pricing-text {
+    font-size: 22px;
+    color: #464159;
+    margin-bottom: 28px;
+}
+
+
+.pricing .card {
+    width: 370px;
+}
+
+
+.pricing .card img {
+    margin-bottom: 36px;
+}
+
+/* //////////////////woods/////////////////////// */
+
+.woods {
+    background-image: url('../img/dRm5PFG\ -\ Imgur.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% calc(100vh + 50px);
+    /* background-size: cover; */
+    height: calc(100vh + 50px);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.woods-content {
+    background: rgba(63, 57, 77, 0.7);
+    height: calc(100vh + 50px);
+    padding-top: 222px;
+
+}
+
+
+.woods-text {
+    font-size: 38px;
+    color: #fff;
+    margin-bottom: 46px;
+}
+
+.woods-name {
+    font-size: 38px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+
+.woods .shape1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transform: rotate(330deg);
+}
+
+
+
+.woods .shape3 {
+    position: absolute;
+    bottom: -20px;
+    left: 100px;
+    z-index: 1;
+
+    transform: rotate(20deg);
+
+
+}
+
+.woods .shape4 {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    z-index: 1;
+    transform: rotate(330deg);
+
+}
+
+/* //////////////updates///////////////////// */
+
+
+.updates {
+    background-color: #c7f0db;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.updates-content {
+    padding: 146px 0 126px 0;
+}
+
+.updates .sec-heading,
+.updates .sec-para {
+    color: #464159;
+}
+
+.update-input {
+    width: 100%;
+    padding: 22px 26px;
+    font-size: 25px;
+    border-radius: 6px;
+    border: none;
+}
+
+.updates .shape1 {
+    position: absolute;
+    bottom: -150px;
+    right: 50px;
+    z-index: 1;
+}
+
+.updates .shape2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.updates .shape3 {
+    position: absolute;
+    bottom: -180px;
+    left: 219px;
+    z-index: 1;
+}
+
+.updates .shape4 {
+    position: absolute;
+    bottom: 0;
+    left: 305px;
+    z-index: 1;
+}
+
+
+
+/* ///////////////footer//////////////////// */
+
+
+.footer {
+    background-color: #464159;
+    padding: 160px 0 138px 0;
+}
+
+.footer-head {
+    font-size: 33px;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 34px;
+}
+
+.footer-text {
+    font-size: 21px;
+    color: #fff;
+}
+
+.footer-list li {
+    font-size: 25px;
+    color: #fff;
+    line-height: 1.5;
+}
